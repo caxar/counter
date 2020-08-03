@@ -1,0 +1,53 @@
+/*#24252a*/
+/*#29f1c3 correct*/
+/*#e26a6a uncorrect*/
+
+body {
+	font-family: 'Arial', sans-serif;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #4d05e8;
+}
+
+.content-box {
+	text-align: center;
+	border: 2px solid #24252a;
+	flex: 0 0 50%;
+	padding: 0 0 20px 0;
+	color: #fff;
+}
+
+.counterTitle {
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.countNumber {
+	font-size: 30px;
+	font-weight: 800;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.btn {
+	font-size: 16px;
+	font-weight: 600;
+	padding: 5px 10px;
+	border-radius: 5px;
+	border: 2px solid #24252a;
+	background: transparent;
+	outline: none;
+	cursor: pointer;
+	color: #fff;
+	margin-left: 10px;
+	margin-right: 10px;
+	transition: .2s linear;
+}
+
+.btn:hover {
+	border:2px solid #fff;
+}
